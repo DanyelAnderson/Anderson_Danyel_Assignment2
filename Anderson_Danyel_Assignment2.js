@@ -1,6 +1,6 @@
-alert("JavaScript works!");
+//alert("JavaScript works!");
 
-/Danyel Anderson
+//Danyel Anderson
 //SDI 1412
 //Project 2
 
@@ -38,19 +38,15 @@ areYourSure = confirm ( " Are you sure they are dirty? ")
 //Boolean Function
 
 var soak  = function ( soak ) {
-  if ( yesTheyAre ==true )
+  if ( yesTheyAre == true ){
        var dirty = false
   }
   else {
 	  var dirty = true 
   }
-} 
+}
 		 console.log(" You have 2 pots and pans to wash.")
 		 var numPotsAndPans = 2;
 		 //While loop
 		 while (numPotsAndPans = 0 ) {
-			 console.log ( " We have " + numPotsAndPans + " to wash.");
-			 
-		 
-
-	 
+			 console.log ( " We have " + numPotsAndPans + " to wash."); }
