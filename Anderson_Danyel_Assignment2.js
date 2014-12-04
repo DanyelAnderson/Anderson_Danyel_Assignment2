@@ -45,8 +45,22 @@ var soak  = function ( soak ) {
 	  var dirty = true 
   }
 }
-		 console.log(" You have 2 pots and pans to wash.")
+          console.log(" You have 2 pots and pans to wash.")
 		 var numPotsAndPans = 2;
 		 //While loop
-		 while (numPotsAndPans = 0 ) {
+		 while (numPotsAndPans > 0 ) {
 			 console.log ( " We have " + numPotsAndPans + " to wash."); }
+			 console.log ( " We can now move on to the next dishwashing step.")
+			 
+//Number Function
+		function timeToDoDishes ( regular, potsAnPans) {
+			var regular = 12
+			var potsAnPans = 15
+			var totalTime = regular + potsAnPans
+		}
+regular = 12
+potsAnPans = 15
+var totalTime = regular + potsAnPans	
+for (var dishewaherTime = 32; dishwasherTime > 0 ; dishwasherTime += totalTime) {
+	console.log (" It will take you " + totalTime + " minutes to complete your task. ")
+	
