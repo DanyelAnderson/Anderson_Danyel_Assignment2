@@ -45,22 +45,33 @@ var soak  = function ( soak ) {
 	  var dirty = true 
   }
 }
-          console.log(" You have 2 pots and pans to wash.")
-		 var numPotsAndPans = 2;
+          console.log(" It looks like we do not have to worry about unloading the dishwasher, thank goodness.")
+		 var numPotsAndPans = 0;
 		 //While loop
-		 while (numPotsAndPans > 0 ) {
+		 while (numPotsAndPans > 1 ) {
 			 console.log ( " We have " + numPotsAndPans + " to wash."); }
 			 console.log ( " We can now move on to the next dishwashing step.")
 			 
 //Number Function
 		function timeToDoDishes ( regular, potsAnPans) {
-			var regular = 12
+			var regularDishes = 12
 			var potsAnPans = 15
-			var totalTime = regular + potsAnPans
+			var totalTimeAll = regular + potsAnPans
 		}
-regular = 12
+regularDishes = 12
 potsAnPans = 15
-var totalTime = regular + potsAnPans	
-for (var dishewaherTime = 32; dishwasherTime > 0 ; dishwasherTime += totalTime) {
-	console.log (" It will take you " + totalTime + " minutes to complete your task. ")
+var totalTime = regularDishes + potsAnPans	
+for (var dishwasherTime = 32; dishwasherTime <= 60 ; dishwasherTime += totalTime) {
+	console.log (" It will take you " + totalTime + " minutes to complete your task. ") };
+	
+
+//String Function
+var finished = confirm("Finally all the dishes are done.")
+var next = confirm (" We must put away the clean dishes, so we can skip that step next time.")
+var relax = confirm (" Now we can relax after doing our chore!")
+console.log ( finished + next + relax )
+
+//Final Output
+
+
 	
