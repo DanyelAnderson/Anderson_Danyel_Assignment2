@@ -73,5 +73,5 @@ console.log ( finished + next + relax )
 
 //Final Output
 
-
+console.log ( " Dish chore is finally done, it is a easy task but yet something most people still do not care to do. Now to relax a little until the next chore is to be done, Folding Laundry! " )
 	
